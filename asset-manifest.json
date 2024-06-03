@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dance-studio-wroclaw/static/css/main.37fe264a.css",
+    "main.js": "/dance-studio-wroclaw/static/js/main.de2207dd.js",
+    "static/js/453.7b5d330d.chunk.js": "/dance-studio-wroclaw/static/js/453.7b5d330d.chunk.js",
+    "index.html": "/dance-studio-wroclaw/index.html",
+    "main.37fe264a.css.map": "/dance-studio-wroclaw/static/css/main.37fe264a.css.map",
+    "main.de2207dd.js.map": "/dance-studio-wroclaw/static/js/main.de2207dd.js.map",
+    "453.7b5d330d.chunk.js.map": "/dance-studio-wroclaw/static/js/453.7b5d330d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37fe264a.css",
+    "static/js/main.de2207dd.js"
+  ]
+}
