@@ -1,0 +1,91 @@
+.offer ul {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.offer ul li {
+  list-style: none;
+}
+
+.offer ul li h4,
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.offer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.offer ul {
+  display: grid;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.offer ul li {
+  text-align: center;
+  margin: 20px;
+  width: 300px;
+}
+.offer ul li img {
+  border-radius: 50%;
+  border: 3px solid #bbb;
+  width: 90px;
+  margin: 20px 0;
+}
+
+.offer ul li p,
+iframe {
+  margin: 10px;
+}
+.offer ul li h4 {
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+.offer ul li p {
+  color: #b8b8b8;
+  font-size: 18px;
+  font-family: Thasadith, sans-serif;
+}
+
+@media (min-width: 700px) {
+  .offer h4 {
+    font-size: 20px;
+  }
+
+  .offer ul {
+    margin-bottom: 0;
+  }
+
+  .offer h1 {
+    padding: 0;
+  }
+
+  .offer {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .offer ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .offer ul li p {
+    margin: 10px 15px;
+    font-size: 17px;
+  }
+}
+@media (min-width: 1200px) {
+  .offer {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .offer h1 {
+    padding: 0;
+  }
+}
+@media (min-width: 1300px) {
+  .offer ul {
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 0;
+  }
+}

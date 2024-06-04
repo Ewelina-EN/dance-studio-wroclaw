@@ -1,10 +1,10 @@
+import React from "react";
 import { Element } from "react-scroll";
 
-const Section = ({ name, title, description }) => {
+const Section = ({ name, component }) => {
   return (
     <Element name={name} className="section">
-      <h2>{title}</h2>
-      <p>{description}</p>
+      {component}
     </Element>
   );
 };
