@@ -29,20 +29,32 @@
 
 .nav li {
   margin: 0 16px;
+  text-transform: uppercase;
 }
 
 .nav a {
   color: white;
   text-decoration: none;
-  font-size: 19px;
+  font-size: 15px;
 }
 
 .nav a:hover {
   text-decoration: underline;
 }
 
+.nav-social li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-social svg {
+  width: 25px;
+  height: 25px;
+}
+
 .content {
-  padding-top: 80px; /* Height of the nav bar */
+  padding-top: 36px; /* Height of the nav bar */
 }
 
 .section {
@@ -56,21 +68,21 @@
 @media (max-width: 768px) {
   .nav ul {
     display: none;
+  }
+
+  .nav ul.open {
+    display: flex;
     flex-direction: column;
     background-color: black;
     position: absolute;
-    top: 60px;
+    top: 55px;
     left: 0;
     width: 100%;
     text-align: center;
   }
 
-  .nav ul.open {
-    display: flex;
-  }
-
   .nav li {
-    margin: 16px 0;
+    margin: 10px 0;
   }
 
   .nav .menu-icon {

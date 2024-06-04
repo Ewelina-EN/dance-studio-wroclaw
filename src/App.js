@@ -1,7 +1,11 @@
 import { useState } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
-import Section from "./section";
+import Section from "./section/section";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import Offer from "./section/offer";
+import Team from "./section/team";
 import "./App.css";
 
 const sections = [
@@ -13,12 +17,13 @@ const sections = [
   {
     name: "Zajęcia",
     title: "Zajęcia",
-    description: "This is section 2.",
+    component: <Offer />,
   },
   {
     name: "Trenerki",
     title: "Trenerki",
     description: "This is section 3.",
+    component: <Team />,
   },
   {
     name: "Grafik",
@@ -69,6 +74,14 @@ function App() {
             </li>
           ))}
         </ul>
+        <ul className="nav-social">
+          <li>
+            <FaFacebook />
+          </li>
+          <li>
+            <FaInstagram />
+          </li>
+        </ul>
       </nav>
 
       <div className="content">
@@ -78,6 +91,7 @@ function App() {
             name={section.name}
             title={section.title}
             description={section.description}
+            component={section.component}
           />
         ))}
       </div>
