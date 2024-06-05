@@ -1,10 +1,9 @@
 import React from "react";
 import Offer from "./section/offer/offer";
-import Team from "./section/team";
-import Schedule from "./section/schedule";
-// import Rent from './section/rent';
-import Prices from "./section/prices";
-import Contact from "./section/contact";
+import Team from "./section/team/team";
+import Schedule from "./section/schedule/schedule";
+import Prices from "./section/prices/prices";
+import Contact from "./section/contact/contact";
 
 export const offerItems = [
   {
