@@ -4,3 +4,40 @@ body {
   background-color: black;
   color: white;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+h1 {
+  font-size: 35px;
+  letter-spacing: 3px;
+}
+
+p {
+  color: #b8b8b8;
+  font-size: 15px;
+  font-family: "Noto Sans", sans-serif;
+  width: 85%;
+  margin: 0 auto;
+}
+
+a {
+  text-transform: lowercase;
+  color: white;
+  border: 1px solid #fff;
+  padding: 10px 15px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #000;
+}

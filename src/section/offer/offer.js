@@ -9,6 +9,7 @@ const Offer = ({ items }) => {
         <ul>
           {items.map((item, index) => (
             <li key={index}>
+              <img src={item.image} />
               <h4>{item.title}</h4>
               <p>{item.description}</p>
             </li>
@@ -28,13 +29,10 @@ const Offer = ({ items }) => {
         <div> DODAC LINKI DO YT</div>
         <div class="text">
           <p>Chcesz zobaczyć więcej?</p>
-          <a
-            href="https://www.instagram.com/chernika_studio.pl/"
-            target="_blank"
-          >
-            SPRAWDŹ NASZ INSTAGRAM
-          </a>
         </div>
+        <a href="https://www.instagram.com/chernika_studio.pl/" target="_blank">
+          SPRAWDŹ NASZ INSTAGRAM
+        </a>
       </section>
     </>
   );
