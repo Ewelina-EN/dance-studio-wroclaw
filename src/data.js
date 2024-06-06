@@ -36,6 +36,69 @@ export const offerItems = [
   },
 ];
 
+export const pricesList = [
+  {
+    name: "karnet 4 wejść",
+    about: {
+      lesson: "zajęcia 1 x w tygodniu",
+      time: "zajęcia trwają 60 minut",
+      instructor: "zajęcia z instruktorem w grupie",
+      valid: "karnet ważny 30 dni, od dnia nabycia",
+    },
+    price: "150",
+  },
+  {
+    name: "karnet 8 wejść",
+    about: {
+      lesson: "zajęcia 2 x w tygodniu",
+      time: "zajęcia trwają 60 minut",
+      instructor: "zajęcia z instruktorem w grupie",
+      valid: "karnet ważny 30 dni, od dnia nabycia",
+    },
+    price: "250",
+  },
+  {
+    name: "pakiet vip",
+    about: {
+      lesson: "nielimitowany dostęp do zajęć",
+      time: "zajęcia trwają 60 minut",
+      instructor: "zajęcia z instruktorem w grupie",
+      valid: "karnet ważny 30 dni, od dnia nabycia",
+    },
+    price: "450",
+  },
+  {
+    name: "pojedyncze wejście",
+    about: {
+      lesson: "jednorazowe wejście na wybrane zajęcia",
+      time: "zajęcia trwają 60 minut",
+      instructor: "zajęcia z instruktorem w grupie",
+      valid: "dla wszystkich chętnych",
+    },
+    price: "50",
+  },
+  {
+    name: "zajęcia indywidualne",
+    about: {
+      lesson: "Doskonała okazja, aby dopasować",
+      time: "trening do Twoich potrzeb.",
+      instructor: "Osiągnij swoje cele",
+      valid: "treningowe szybciej!",
+    },
+    price: "150",
+  },
+  {
+    name: "pakiety",
+    about: {
+      lesson: "Przy pakietach zajęć indywidualnych",
+      time: "lub regularnym wynajmie sali",
+      instructor: "wykonujemy wycene indywidualną",
+      valid: "stosując rabaty!",
+    },
+    price: "%%%",
+  },
+];
+
 export const sections = [
   {
     name: "Home",

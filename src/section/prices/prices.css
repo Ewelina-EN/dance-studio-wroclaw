@@ -1,0 +1,66 @@
+/* Prices.css */
+
+.prices-main-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.prices-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  transition: box-shadow 0.3s;
+}
+
+.prices-list:hover {
+  box-shadow: 0 0 8px 0 #fff;
+}
+
+.prices-list h3 {
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.prices-info {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 15px 0;
+  font-family: Thasadith, sans-serif;
+}
+
+.prices-info li {
+  margin: 5px 0;
+  color: #b8b8b8;
+}
+
+.prices-list p {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.prices h1 {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 700px) and (max-width: 1199px) {
+  .prices-main-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .prices-main-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
