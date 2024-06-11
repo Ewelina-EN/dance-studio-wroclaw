@@ -16,7 +16,7 @@ const Offer = ({ items }) => {
           ))}
         </ul>
       </section>
-      <section class="videos" id="videos">
+      {/* <section className="videos" id="videos">
         <h1>ZAPRASZAMY DO ŚWIATA TAŃCA</h1>
         <p>
           Naucz się kroków tanecznych i rozwijaj swoje umiejętności dzięki
@@ -26,50 +26,47 @@ const Offer = ({ items }) => {
           Nieważne, czy jesteś początkującym tancerzem czy już masz
           doświadczenie - nasze zajęcia są dla Ciebie!
         </p>
-        <div class="v-container">
+        <div className="v-container">
           <iframe
-            width="320"
             height="695"
             src="https://www.youtube.com/embed/wtDS2XsHDyE"
             title='Pola Szczepańska - High Heels - Jamelia "Superstar" Choreography - Chernika Dance Studio'
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
           ></iframe>
           <iframe
-            width="320"
             height="695"
             src="https://www.youtube.com/embed/wtDS2XsHDyE"
             title='Pola Szczepańska - High Heels - Jamelia "Superstar" Choreography - Chernika Dance Studio'
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
           ></iframe>
           <iframe
-            width="320"
             height="695"
             src="https://www.youtube.com/embed/wtDS2XsHDyE"
             title='Pola Szczepańska - High Heels - Jamelia "Superstar" Choreography - Chernika Dance Studio'
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
           ></iframe>
         </div>
-        <div class="text">
+        <div className="text">
           <p>Chcesz zobaczyć więcej?</p>
         </div>
         <a
           href="https://www.instagram.com/chernika_studio.pl/"
           target="_blank"
           rel="noreferrer"
-          class="btn"
+          className="btn"
         >
-          SPRAWDŹ NASZ INSTAGRAM
+          Sprawdź nasz Instagram
         </a>
-      </section>
+      </section> */}
     </>
   );
 };

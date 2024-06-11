@@ -1,31 +1,21 @@
-const Team = () => {
+import "../offer/offer.css";
+
+const Team = ({ items }) => {
   return (
-    <section class="schedule">
-      <h1>GRAFIK</h1>
-
-      <table class="day">
-        <thead class="day-name">
-          <tr>
-            <th colspan="3"></th>
-          </tr>
-        </thead>
-        <tbody class="details">
-          <tr>
-            <td class="hour"></td>
-            <td class="workout"></td>
-            <td class="sch-instructor"></td>
-          </tr>
-        </tbody>
-      </table>
-
-      <div class="schedule-info">
-        <p>
-          Beginners - poziom początkujący. <br /> Advanced - poziom
-          zaawansowany. <br /> Open - zajęcia dla osób, na każdym poziomie
-          umiejętności
-        </p>
-      </div>
-    </section>
+    <>
+      <section className="offer">
+        <h1 id="team">Trenerki</h1>
+        <ul>
+          {items.map((item, index) => (
+            <li key={index}>
+              <img src={item.image} />
+              <h4>{item.name}</h4>
+              <p>{item.description}</p>
+            </li>
+          ))}
+        </ul>
+      </section>
+    </>
   );
 };
 export default Team;
