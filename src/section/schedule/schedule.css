@@ -1,0 +1,88 @@
+.schedule {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.schedule h1 {
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+}
+
+.schedule table {
+  width: 100%;
+  border: 1px solid rgb(139, 139, 139);
+  margin-bottom: 20px;
+}
+
+.schedule th {
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  padding: 10px 15px;
+  border-bottom: 1px solid #8b8b8b;
+}
+
+td {
+  padding: 10px 15px;
+}
+
+.hour {
+  width: 80px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 18px;
+}
+
+.workout {
+  margin-left: 30px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
+}
+
+.sch-instructor {
+  text-align: right;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+
+.schedule-info p {
+  font-family: "Noto Sans", sans-serif;
+  margin: 25px 0;
+  text-align: left;
+}
+
+.schedule-info p:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 700px) {
+  .schedule {
+    width: 70%;
+  }
+
+  .schedule table {
+    padding: 10px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .schedule {
+    width: 68%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .schedule {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1700px) {
+  .schedule {
+    width: 40%;
+    margin: 0 auto;
+  }
+}

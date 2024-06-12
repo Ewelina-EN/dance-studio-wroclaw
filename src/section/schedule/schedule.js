@@ -1,23 +1,29 @@
-const Schedule = () => {
-  return (
-    <section class="schedule">
-      <h1>GRAFIK</h1>
-      <table class="day">
-        <thead class="day-name">
-          <tr>
-            <th colspan="3"></th>
-          </tr>
-        </thead>
-        <tbody class="details">
-          <tr>
-            <td class="hour"> - </td>
-            <td class="workout"></td>
-            <td class="sch-instructor"></td>
-          </tr>
-        </tbody>
-      </table>
+import React from "react";
+import "./schedule.css";
 
-      <div class="schedule-info">
+const Schedule = ({ items }) => {
+  return (
+    <section className="schedule">
+      <h1>GRAFIK</h1>
+      {Object.keys(items).map((day, index) => (
+        <table className="day" key={index}>
+          <thead className="day-name">
+            <tr>
+              <th colSpan="3">{day}</th>
+            </tr>
+          </thead>
+          <tbody className="details">
+            {items[day].map((item, idx) => (
+              <tr key={idx}>
+                <td className="hour">{item.time}</td>
+                <td className="workout">{item.class}</td>
+                <td className="sch-instructor">{item.instructor}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      ))}
+      <div className="schedule-info">
         <p>
           Beginners - poziom początkujący. <br /> Advanced - poziom
           zaawansowany. <br /> Open - zajęcia dla osób, na każdym poziomie
