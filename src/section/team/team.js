@@ -3,7 +3,7 @@ import "../offer/offer.css";
 const Team = ({ items }) => {
   return (
     <>
-      <section className="offer">
+      <section className="team">
         <h1 id="team">Trenerki</h1>
         <ul>
           {items.map((item, index) => (

@@ -1,32 +1,44 @@
-.offer ul {
+.offer ul,
+.team ul {
   display: grid;
   margin: 0 20px 20px 20px;
   align-items: center;
   padding: 0;
 }
 
-.offer ul li {
+.offer ul li,
+.team ul li {
   list-style: none;
   text-align: center;
   margin-bottom: 50px;
   position: relative;
 }
 
-.offer ul li img {
+.offer ul li img,
+.team ul li img {
   width: 100%;
   height: 400px;
   /* filter: brightness(50%); */
   margin-bottom: 20px;
+  position: relative;
 }
 
-.offer ul li h4 {
+.offer ul li h4,
+.team ul li h4 {
   margin: 0;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 40px;
   letter-spacing: 2px;
+  width: 100%;
+}
+
+.team ul li h4 {
+  width: 85%;
+  background-color: black;
+  font-size: 35px;
 }
 
 .videos {
@@ -73,14 +85,16 @@ iframe {
 
 /* Tablet Styles */
 @media (min-width: 500px) {
-  .offer ul {
+  .offer ul,
+  .team ul {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     width: 85%;
     margin: 0 auto;
   }
 
-  .offer ul li img {
+  .offer ul li img,
+  .team ul li img {
     height: 400px;
   }
 
@@ -90,16 +104,19 @@ iframe {
 }
 
 @media (min-width: 760px) {
-  .offer ul {
+  .offer ul,
+  .team ul {
     width: 80%;
     margin: 0 auto;
   }
 
-  .offer ul li img {
+  .offer ul li img,
+  .team ul li img {
     height: 400px;
   }
 
-  .offer ul li p {
+  .offer ul li p,
+  .team ul li p {
     margin: 0 auto;
     width: 100%;
   }
@@ -113,28 +130,33 @@ iframe {
 
 /* Desktop Styles */
 @media (min-width: 1000px) {
-  .offer {
+  .offer,
+  .team {
     width: 95%;
     margin: 0 auto;
   }
 
-  .offer h1 {
+  .offer h1,
+  .team h1 {
     padding: 0;
   }
 
-  .offer ul {
+  .offer ul,
+  .team ul {
     grid-template-columns: repeat(4, 1fr);
     margin-bottom: 0;
     gap: 20px;
     width: auto;
   }
 
-  .offer ul li h4 {
+  .offer ul li h4,
+  .team ul li h4 {
     font-size: 30px;
     letter-spacing: 1px;
   }
 
-  .offer ul li p {
+  .offer ul li p,
+  .team ul li p {
     font-size: 15px;
     width: 95%;
   }
@@ -145,7 +167,8 @@ iframe {
 }
 
 @media (min-width: 1700px) {
-  .offer ul li img {
+  .offer ul li img,
+  .team ul li img {
     height: 490px;
     /* width: 250px; */
   }

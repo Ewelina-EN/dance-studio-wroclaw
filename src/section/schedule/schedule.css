@@ -12,6 +12,7 @@
   width: 100%;
   border: 1px solid rgb(139, 139, 139);
   margin-bottom: 20px;
+  background-color: #141619;
 }
 
 .schedule th {
@@ -38,6 +39,7 @@ td {
   margin-left: 30px;
   font-family: "Noto Sans", sans-serif;
   font-size: 14px;
+  text-align: left;
 }
 
 .sch-instructor {

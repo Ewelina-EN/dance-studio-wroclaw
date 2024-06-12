@@ -222,14 +222,14 @@ export const sections = [
     component: <Offer items={offerItems} />,
   },
   {
-    name: "Trenerki",
-    title: "Trenerki",
-    component: <Team items={teamItems} />,
-  },
-  {
     name: "Grafik",
     title: "Grafik",
     component: <Schedule items={schedulePlan} />,
+  },
+  {
+    name: "Trenerki",
+    title: "Trenerki",
+    component: <Team items={teamItems} />,
   },
   {
     name: "Cennik",
