@@ -95,7 +95,7 @@ iframe {
 
   .offer ul li img,
   .team ul li img {
-    height: 400px;
+    height: 350px;
   }
 
   .v-container iframe {
@@ -109,11 +109,11 @@ iframe {
     width: 80%;
     margin: 0 auto;
   }
-
+  /* 
   .offer ul li img,
   .team ul li img {
     height: 400px;
-  }
+  } */
 
   .offer ul li p,
   .team ul li p {

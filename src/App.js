@@ -5,6 +5,7 @@ import { FaBars, FaTimes, FaFacebook, FaInstagram } from "react-icons/fa";
 import "./App.css";
 import { sections } from "./data";
 import RoomRental from "./section/rent";
+import ContactForm from "./section/form/form";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -57,8 +58,9 @@ function App() {
               component={section.component}
             />
           ))}
+          <RoomRental />
+          <ContactForm />
         </div>
-        <RoomRental />
       </div>
     </>
   );

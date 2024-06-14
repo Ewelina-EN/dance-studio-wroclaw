@@ -1,0 +1,111 @@
+.contact-form {
+  background-color: #141619;
+  border: none;
+  padding: 20px;
+  max-width: 300px;
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form h1 {
+  text-align: center;
+}
+
+.contact-form input,
+.contact-form select {
+  background-color: #4b4e50;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  color: grey;
+}
+
+.contact-form input::placeholder {
+  color: #a8a9aa;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.contact-form label.consent-label {
+  color: white;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ada7bf;
+  font-family: "Roboto", sans-serif;
+  margin: 0 0 20px 0;
+}
+
+.contact-form fieldset {
+  font-family: "Roboto", sans-serif;
+  color: #ada7bf;
+  margin: 20px 0;
+}
+
+.dance-style-checkbox {
+  margin: 10px;
+}
+
+.consent-label input {
+  gap: 10px;
+}
+
+.contact-form button {
+  background-color: transparent;
+  border: 2px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 2px;
+}
+
+.contact-form button:hover {
+  background-color: grey;
+  color: white;
+}
+
+/* Media Queries for Responsiveness */
+@media (min-width: 600px) {
+  .contact-form {
+    width: 570px;
+  }
+
+  .contact-form input,
+  .contact-form select {
+    font-size: 18px;
+  }
+
+  .contact-form input::placeholder {
+    font-size: 16px;
+  }
+
+  .contact-form button {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 900px) {
+  .contact-form {
+    max-width: 700px;
+    padding: 40px;
+  }
+
+  .contact-form input,
+  .contact-form select {
+    font-size: 20px;
+  }
+
+  .contact-form input::placeholder {
+    font-size: 18px;
+  }
+
+  .contact-form button {
+    font-size: 20px;
+    padding: 15px;
+  }
+}

@@ -4,9 +4,8 @@ const RoomRental = () => {
   return (
     <>
       <div className="lessons">
-        <div className="gym-photo-container">
-          <img className="gym-photo" src={trainingRoom} alt="training room" />
-        </div>
+        <img className="gym-photo" src={trainingRoom} alt="training room" />
+
         <div>
           <h2>WYNAJEM SALI</h2>
           <p>
