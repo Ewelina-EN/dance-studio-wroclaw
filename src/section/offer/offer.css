@@ -1,6 +1,6 @@
 .offer,
 .team {
-  margin: 100px auto;
+  margin: 50px auto;
 }
 
 .offer ul,
@@ -22,7 +22,7 @@
 .offer ul li img,
 .team ul li img {
   width: 100%;
-  height: 400px;
+  height: 385px;
   /* filter: brightness(50%); */
   margin-bottom: 20px;
   position: relative;

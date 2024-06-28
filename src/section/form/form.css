@@ -2,10 +2,11 @@
   background-color: #141619;
   border: none;
   padding: 20px;
-  max-width: 300px;
+  width: 80%;
   margin: 80px auto;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 15px;
 }
 
@@ -54,18 +55,18 @@
   gap: 10px;
 }
 
-.contact-form button {
+.form-btn {
   background-color: transparent;
   border: 2px solid #ccc;
-  padding: 10px;
-  font-size: 16px;
+  padding: 10px 50px;
+  font-size: 20px;
   cursor: pointer;
   color: white;
   font-family: "Bebas Neue", sans-serif;
   letter-spacing: 2px;
 }
 
-.contact-form button:hover {
+.form-btn:hover {
   background-color: grey;
   color: white;
 }
@@ -74,6 +75,7 @@
 @media (min-width: 600px) {
   .contact-form {
     width: 570px;
+    align-items: normal;
   }
 
   .contact-form input,
@@ -85,7 +87,7 @@
     font-size: 16px;
   }
 
-  .contact-form button {
+  .form-btn {
     font-size: 18px;
   }
 }
@@ -106,7 +108,7 @@
     font-size: 18px;
   }
 
-  .contact-form button {
+  .form-btn {
     font-size: 20px;
     padding: 15px;
   }

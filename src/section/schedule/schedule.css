@@ -36,7 +36,7 @@ td {
 }
 
 .hour {
-  width: 80px;
+  width: 45px;
   font-family: "Bebas Neue", sans-serif;
   font-size: 18px;
 }
@@ -65,6 +65,11 @@ td {
   margin-bottom: 0;
 }
 
+.free-lesson {
+  text-align: center;
+  margin: 100px 10px;
+}
+
 @media (min-width: 700px) {
   .schedule {
     width: 70%;
@@ -72,6 +77,19 @@ td {
 
   .schedule table {
     padding: 10px;
+  }
+
+  .hour {
+    width: 80px;
+  }
+
+  .free-lesson {
+    margin: 150px auto;
+    width: 50%;
+  }
+
+  .free-lesson h1 {
+    font-size: 45px;
   }
 }
 

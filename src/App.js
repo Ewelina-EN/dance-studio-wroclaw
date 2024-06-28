@@ -7,6 +7,7 @@ import { sections } from "./data";
 import RoomRental from "./section/rent";
 import video from "../src/assets/head-video.mp4";
 import logo from "./assets/main/logo3.jpeg";
+import MainHeader from "./section/header";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -49,18 +50,11 @@ function App() {
           <FaFacebook aria-label="Facebook" />
           <FaInstagram aria-label="Instagram" />
         </div>
-        {/* <ul className="nav-social">
-          <li> 
-        <FaFacebook aria-label="Facebook" />
-         </li>
-          <li> 
-        <FaInstagram aria-label="Instagram" />
-        </li>
-        </ul> */}
       </nav>
       <video autoPlay loop muted className="video">
         <source src={video} type="video/mp4" />
       </video>
+      <MainHeader />
       <div className="content">
         {sections.map((section) => (
           <Section

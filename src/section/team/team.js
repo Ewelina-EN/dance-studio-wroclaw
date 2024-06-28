@@ -5,6 +5,12 @@ import dance2 from "../../assets/main/photo2.jpeg";
 const Team = ({ items }) => {
   return (
     <>
+      <div className="free-lesson">
+        <h1>Odbierz darmowe wejście na pierwsze zajęcia</h1>
+        <button type="submit" className="form-btn">
+          Odbieram
+        </button>
+      </div>
       <section className="team">
         <h1 id="team">Trenerki</h1>
         <ul>

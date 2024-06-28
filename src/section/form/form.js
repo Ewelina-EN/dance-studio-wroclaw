@@ -92,7 +92,9 @@ const ContactForm = () => {
         />
         Zgadzam się na przetwarzanie danych osobowych
       </label>
-      <button type="submit">Wyślij</button>
+      <button type="submit" className="form-btn">
+        Wyślij
+      </button>
     </form>
   );
 };
