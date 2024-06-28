@@ -1,4 +1,6 @@
 import "../offer/offer.css";
+import "../../section/schedule/schedule.css";
+import dance2 from "../../assets/main/photo2.jpeg";
 
 const Team = ({ items }) => {
   return (
@@ -15,6 +17,7 @@ const Team = ({ items }) => {
           ))}
         </ul>
       </section>
+      <img src={dance2} alt="dance photo" className="dance-photo" />
     </>
   );
 };

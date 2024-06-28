@@ -1,3 +1,9 @@
+.dance-photo {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .schedule {
   width: 90%;
   margin: 0 auto;
@@ -72,13 +78,14 @@ td {
 @media (min-width: 1000px) {
   .schedule {
     width: 68%;
+    margin: 0 auto;
   }
 }
 
 @media (min-width: 1200px) {
   .schedule {
     width: 50%;
-    margin: 0 auto;
+    margin: 100px auto;
   }
 }
 

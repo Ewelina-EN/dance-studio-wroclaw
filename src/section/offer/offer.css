@@ -1,3 +1,8 @@
+.offer,
+.team {
+  margin: 100px auto;
+}
+
 .offer ul,
 .team ul {
   display: grid;
@@ -132,8 +137,8 @@ iframe {
 @media (min-width: 1000px) {
   .offer,
   .team {
-    width: 95%;
-    margin: 0 auto;
+    width: 85%;
+    margin: 100px auto;
   }
 
   .offer h1,

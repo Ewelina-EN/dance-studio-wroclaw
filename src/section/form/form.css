@@ -19,7 +19,7 @@
   border: none;
   padding: 10px;
   font-size: 16px;
-  color: grey;
+  color: white;
 }
 
 .contact-form input::placeholder {
@@ -43,6 +43,7 @@
   font-family: "Roboto", sans-serif;
   color: #ada7bf;
   margin: 20px 0;
+  text-align: left;
 }
 
 .dance-style-checkbox {
@@ -93,6 +94,7 @@
   .contact-form {
     max-width: 700px;
     padding: 40px;
+    margin: 100px auto;
   }
 
   .contact-form input,
