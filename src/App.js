@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import Section from "./section/section";
+import Section from "./components/section";
 import { FaBars, FaTimes, FaFacebook, FaInstagram } from "react-icons/fa";
 import "./App.css";
 import { sections } from "./data";
-import RoomRental from "./section/rent";
+import RoomRental from "./components/rent";
 import video from "../src/assets/head-video.mp4";
 import logo from "./assets/main/logo3.jpeg";
-import MainHeader from "./section/header";
+import MainHeader from "./components/header";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
