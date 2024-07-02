@@ -1,15 +1,28 @@
 {
   "files": {
-    "main.css": "/dance-studio-wroclaw/static/css/main.37fe264a.css",
-    "main.js": "/dance-studio-wroclaw/static/js/main.de2207dd.js",
+    "main.css": "/dance-studio-wroclaw/static/css/main.a3c7d42d.css",
+    "main.js": "/dance-studio-wroclaw/static/js/main.11f282b1.js",
     "static/js/453.7b5d330d.chunk.js": "/dance-studio-wroclaw/static/js/453.7b5d330d.chunk.js",
+    "static/media/head-video.mp4": "/dance-studio-wroclaw/static/media/head-video.cb4aad92bd1402324906.mp4",
+    "static/media/yuliia.png": "/dance-studio-wroclaw/static/media/yuliia.45180d152c2f90b1cbea.png",
+    "static/media/anna.png": "/dance-studio-wroclaw/static/media/anna.aa5ee8a7ccbca36556d7.png",
+    "static/media/photo.jpeg": "/dance-studio-wroclaw/static/media/photo.4780b8325903d6c8117e.jpeg",
+    "static/media/photo2.jpeg": "/dance-studio-wroclaw/static/media/photo2.ea25981cac1a9dd8f657.jpeg",
+    "static/media/training-room.jpg": "/dance-studio-wroclaw/static/media/training-room.799208dd3638796fcf5b.jpg",
+    "static/media/highheels.jpeg": "/dance-studio-wroclaw/static/media/highheels.3ad9debd34a82feea0d9.jpeg",
+    "static/media/acro.jpeg": "/dance-studio-wroclaw/static/media/acro.950ae30c01cac13d92b5.jpeg",
+    "static/media/femaledance.jpeg": "/dance-studio-wroclaw/static/media/femaledance.0ff3e0a28de75bb5ca63.jpeg",
+    "static/media/stripdance.jpeg": "/dance-studio-wroclaw/static/media/stripdance.eb5f03cda2a291f67618.jpeg",
+    "static/media/logo3.jpeg": "/dance-studio-wroclaw/static/media/logo3.9121f1c027c285895624.jpeg",
+    "static/media/pola.jpg": "/dance-studio-wroclaw/static/media/pola.cecfd8a526e72312015e.jpg",
+    "static/media/anzhelika.jpg": "/dance-studio-wroclaw/static/media/anzhelika.c7d0403e70eb8e09e280.jpg",
     "index.html": "/dance-studio-wroclaw/index.html",
-    "main.37fe264a.css.map": "/dance-studio-wroclaw/static/css/main.37fe264a.css.map",
-    "main.de2207dd.js.map": "/dance-studio-wroclaw/static/js/main.de2207dd.js.map",
+    "main.a3c7d42d.css.map": "/dance-studio-wroclaw/static/css/main.a3c7d42d.css.map",
+    "main.11f282b1.js.map": "/dance-studio-wroclaw/static/js/main.11f282b1.js.map",
     "453.7b5d330d.chunk.js.map": "/dance-studio-wroclaw/static/js/453.7b5d330d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37fe264a.css",
-    "static/js/main.de2207dd.js"
+    "static/css/main.a3c7d42d.css",
+    "static/js/main.11f282b1.js"
   ]
 }
