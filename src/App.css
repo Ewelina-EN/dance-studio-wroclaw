@@ -69,7 +69,7 @@
 }
 
 .main-header {
-  margin: 0 auto;
+  margin: 50px auto 100px auto;
   text-align: center;
   width: 80%;
 }
@@ -77,10 +77,15 @@
 .main-header h1 {
   padding-top: 0;
   margin-bottom: 10px;
+  text-align: center;
 }
+
 .main-header p {
+  text-align: center;
+  font-size: 20px;
   margin-bottom: 60px;
   line-height: 25px;
+  font-weight: 300;
 }
 
 .content {
@@ -99,7 +104,7 @@
 .lessons {
   display: block;
   position: relative;
-  margin: 50px auto 0;
+  margin: 50px auto;
 }
 
 .lessons a {
@@ -118,13 +123,15 @@
 
 .lessons h2 {
   font-family: "Bebas Neue", sans-serif;
-  margin-bottom: 25px;
+  margin: 0 0 10px 0;
 }
 
 .lessons p {
   font-weight: 200;
   font-size: 15px;
-  color: #b8b8b8;
+  color: white;
+  margin-bottom: 50px;
+  align-items: center;
 }
 
 .lessons p:last-child {
@@ -133,8 +140,7 @@
   margin: 25px 0 0;
 }
 
-/* Desktop Styles */
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .nav {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -194,34 +200,29 @@
     line-height: 35px;
   }
 
-  .gym-photo-container {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-  }
-
-  .gym-photo {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
-  }
-
   .lessons p {
-    font-size: 17px;
+    font-size: 20px;
+  }
+
+  .lessons h2 {
+    margin-bottom: 30px;
   }
 }
 
 @media (min-width: 1100px) {
   .section {
-    /* width: 90%; */
     margin: 30px auto;
+  }
+
+  .video {
+    height: 600px;
+    object-fit: cover;
   }
 }
 
 @media (min-width: 1200px) {
   .lessons h2 {
-    font-size: 40px;
+    font-size: 30px;
   }
   .lessons p {
     font-size: 20px;
@@ -233,19 +234,23 @@
   }
 
   .main-header p {
-    width: 850px;
+    /* width: 850px; */
     margin: 0 auto;
     line-height: 35px;
+  }
+
+  .video {
+    height: 600px;
+  }
+
+  .btn {
+    display: inline-block;
+    margin: 15px 0;
   }
 }
 
 @media (min-width: 1500px) {
   .gym-photo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 1500px;
     height: auto;
     margin: 165px auto;
   }

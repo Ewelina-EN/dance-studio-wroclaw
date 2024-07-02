@@ -17,7 +17,7 @@ export const offerItems = [
     image: stripdance,
     title: "STRIP DANCE",
     description:
-      "Styl pełny zmysłowych ruchów pełnych emocji i uczuć. Zawiera dużo elementów flooworku. Tańczymy w butach typu Pleaser.",
+      "Styl pełny zmysłowych ruchów oraz emocji i uczuć. Zawiera dużo elementów flooworku. Uczymy się różnych choreografii. Tańczymy w butach typu Pleaser.",
   },
   {
     image: highheels,

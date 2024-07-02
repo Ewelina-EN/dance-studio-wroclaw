@@ -71,10 +71,9 @@
   color: white;
 }
 
-/* Media Queries for Responsiveness */
 @media (min-width: 600px) {
   .contact-form {
-    width: 570px;
+    width: 520px;
     align-items: normal;
   }
 
@@ -88,7 +87,8 @@
   }
 
   .form-btn {
-    font-size: 18px;
+    font-size: 25px;
+    padding: 10px 100px;
   }
 }
 

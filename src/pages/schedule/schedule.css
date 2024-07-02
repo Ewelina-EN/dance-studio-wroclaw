@@ -2,6 +2,7 @@
   width: 100%;
   height: auto;
   display: block;
+  margin: 80px auto;
 }
 
 .schedule {
@@ -67,7 +68,9 @@ td {
 
 .free-lesson {
   text-align: center;
-  margin: 100px 10px;
+  margin: 100px auto;
+  background-color: #141619;
+  padding: 50px 30px;
 }
 
 @media (min-width: 700px) {
@@ -83,11 +86,6 @@ td {
     width: 80px;
   }
 
-  .free-lesson {
-    margin: 150px auto;
-    width: 50%;
-  }
-
   .free-lesson h1 {
     font-size: 45px;
   }
@@ -97,6 +95,15 @@ td {
   .schedule {
     width: 68%;
     margin: 0 auto;
+  }
+
+  .free-lesson {
+    padding: 100px 200px;
+  }
+
+  .free-lesson button {
+    width: 30%;
+    font-size: 25px;
   }
 }
 

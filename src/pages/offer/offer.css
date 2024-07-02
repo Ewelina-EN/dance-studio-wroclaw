@@ -6,7 +6,7 @@
 .offer ul,
 .team ul {
   display: grid;
-  margin: 0 20px 20px 20px;
+  margin: 0 20px;
   align-items: center;
   padding: 0;
 }
@@ -43,7 +43,12 @@
 .team ul li h4 {
   width: 85%;
   background-color: black;
-  font-size: 35px;
+  font-size: 30px;
+}
+
+.offer ul li h4 {
+  width: 85%;
+  font-size: 30px;
 }
 
 .videos {
@@ -96,6 +101,7 @@ iframe {
     gap: 20px;
     width: 85%;
     margin: 0 auto;
+    align-items: flex-start;
   }
 
   .offer ul li img,
@@ -137,33 +143,25 @@ iframe {
 @media (min-width: 1000px) {
   .offer,
   .team {
-    width: 85%;
-    margin: 100px auto;
-  }
-
-  .offer h1,
-  .team h1 {
-    padding: 0;
-  }
-
-  .offer ul,
-  .team ul {
-    grid-template-columns: repeat(4, 1fr);
-    margin-bottom: 0;
-    gap: 20px;
-    width: auto;
+    width: 100%;
   }
 
   .offer ul li h4,
   .team ul li h4 {
     font-size: 30px;
     letter-spacing: 1px;
+    top: 55%;
   }
 
   .offer ul li p,
   .team ul li p {
-    font-size: 15px;
-    width: 95%;
+    font-size: 16px;
+    width: 80%;
+  }
+
+  .offer ul li img,
+  .team ul li img {
+    height: 250px;
   }
 
   .v-container iframe {
@@ -171,10 +169,49 @@ iframe {
   }
 }
 
-@media (min-width: 1700px) {
+@media (min-width: 1200px) {
+  .offer,
+  .team {
+    width: 100%;
+  }
+
+  .offer ul,
+  .team ul {
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 0;
+    gap: 20px;
+    width: 80%;
+  }
+
+  .offer ul li h4 {
+    top: 210px;
+  }
+
+  .btn {
+    padding: 20px 30px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .offer,
+  .team {
+    width: 100%;
+  }
+
   .offer ul li img,
   .team ul li img {
-    height: 490px;
-    /* width: 250px; */
+    height: 350px;
+  }
+
+  .offer ul li h4,
+  .team ul li h4 {
+    top: 50%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .offer,
+  .team {
+    width: 70%;
   }
 }

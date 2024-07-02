@@ -5,7 +5,7 @@ import { FaBars, FaTimes, FaFacebook, FaInstagram } from "react-icons/fa";
 import "./App.css";
 import { sections } from "./data";
 import RoomRental from "./components/rent";
-import video from "../src/assets/head-video.mp4";
+import video from "../src/assets/video/head-video.mp4";
 import logo from "./assets/main/logo3.jpeg";
 import MainHeader from "./components/header";
 

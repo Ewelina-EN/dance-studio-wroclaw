@@ -7,9 +7,9 @@ const RoomRental = () => {
         <img className="gym-photo" src={trainingRoom} alt="training room" />
 
         <div>
-          <h2>WYNAJEM SALI</h2>
+          <h1>WYNAJEM SALI</h1>
           <p>
-            Informujemy, że istnieje możliwość wynajmu sali. <br />
+            Istnieje możliwość wynajmu sali. <br />
             Nasza siedziba mieści się w ścisłym centrum Wrocławia. <br />
             Studio znajduję się w świetnie skomunikowanej strefie czyli samym
             Rynku. <br /> Proponujemy przestronną salę z drewnianym parkietem na
@@ -17,7 +17,7 @@ const RoomRental = () => {
             profesjonalnym nagłośnieniem oraz oświetleniem. <br /> Proponujemy
             wynajem na: nagrania, studio fotograficzne, treningi, próby i inne.
           </p>
-          <h3>Jeśli szukasz sali, by poćwiczyć solo lub z partnerem </h3>
+          <h2>Jeśli szukasz sali, by poćwiczyć solo lub z partnerem </h2>
           <a
             href="mailto:info.chernikastudio@gmail.com"
             target="_blank"
