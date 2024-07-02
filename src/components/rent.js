@@ -21,6 +21,7 @@ const RoomRental = () => {
           <a
             href="mailto:info.chernikastudio@gmail.com"
             target="_blank"
+            rel="noreferrer"
             className="btn"
           >
             SKONTAKTUJ SIĘ Z NAMI

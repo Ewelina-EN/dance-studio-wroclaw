@@ -9,7 +9,7 @@ const Offer = ({ items }) => {
         <ul>
           {items.map((item, index) => (
             <li key={index}>
-              <img src={item.image} />
+              <img src={item.image} alt="offer" />
               <h4>{item.title}</h4>
               <p>{item.description}</p>
             </li>

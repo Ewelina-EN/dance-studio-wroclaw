@@ -1,9 +1,7 @@
 const MainHeader = () => {
   return (
     <>
-      <img src=""></img>
       <div className="main-header">
-        <div></div>
         <div>
           <h1>O nas</h1>
           <p>
