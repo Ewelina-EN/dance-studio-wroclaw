@@ -1,7 +1,13 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import Section from "./components/section";
-import { FaBars, FaTimes, FaFacebook, FaInstagram } from "react-icons/fa";
+import {
+  FaBars,
+  FaTimes,
+  FaFacebook,
+  FaInstagram,
+  FaYoutube,
+} from "react-icons/fa";
 import "./App.css";
 import { sections } from "./data";
 import RoomRental from "./components/rent";
@@ -45,10 +51,16 @@ function App() {
               </Link>
             </li>
           ))}
+          <div className="social">
+            <FaFacebook aria-label="Facebook" className="social-icon" />
+            <FaInstagram aria-label="Instagram" className="social-icon" />
+            <FaYoutube aria-label="Youtube" className="social-icon" />
+          </div>
         </ul>
         <div className="nav-social">
-          <FaFacebook aria-label="Facebook" />
-          <FaInstagram aria-label="Instagram" />
+          <FaFacebook aria-label="Facebook" className="social-icon" />
+          <FaInstagram aria-label="Instagram" className="social-icon" />
+          <FaYoutube aria-label="Youtube" className="social-icon" />
         </div>
       </nav>
       <video autoPlay loop muted className="video">
