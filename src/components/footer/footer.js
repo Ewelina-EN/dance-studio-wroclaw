@@ -16,16 +16,16 @@ const Footer = () => {
       <div className="footer-left">
         <img src={logo} alt="Logo" className="footer-logo" />
       </div>
-      <div className="footer-center">
-        <div className="footer-contact">
+      <div className="adress">
+        <div className="adress-contact">
           <FaMapMarkerAlt className="contact-icon" />
           <p>123 Main Street, City, Country</p>
         </div>
-        <div className="footer-contact">
+        <div className="adress-contact">
           <FaPhone className="contact-icon" />
           <p>+123 456 789</p>
         </div>
-        <div className="footer-contact">
+        <div className="adress-contact">
           <FaEnvelope className="contact-icon" />
           <p>info@example.com</p>
         </div>

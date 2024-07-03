@@ -76,8 +76,8 @@ function App() {
             component={section.component}
           />
         ))}
-        <RoomRental />
       </div>
+      <RoomRental />
       <Footer />
     </div>
   );

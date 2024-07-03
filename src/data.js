@@ -3,6 +3,7 @@ import Offer from "./pages/offer/offer";
 import Team from "./pages/team/team";
 import Schedule from "./pages/schedule/schedule";
 import Prices from "./pages/prices/prices";
+import Contact from "./pages/contact/contact";
 import acro from "./assets/offer/acro.jpeg";
 import highheels from "./assets/offer/highheels.jpeg";
 import stripdance from "./assets/offer/stripdance.jpeg";
@@ -146,34 +147,6 @@ export const schedulePlan = {
   ],
 };
 
-export const sections = [
-  {
-    name: "Home",
-    title: "Home",
-    description: "This is section 1.",
-  },
-  {
-    name: "Zajęcia",
-    title: "Zajęcia",
-    component: <Offer items={offerItems} />,
-  },
-  {
-    name: "Grafik",
-    title: "Grafik",
-    component: <Schedule items={schedulePlan} />,
-  },
-  {
-    name: "Trenerki",
-    title: "Trenerki",
-    component: <Team items={teamItems} />,
-  },
-  {
-    name: "Cennik",
-    title: "Cennik",
-    component: <Prices />,
-  },
-];
-
 export const pricesList = [
   {
     name: "karnet 4 wejść",
@@ -234,5 +207,38 @@ export const pricesList = [
       valid: "stosując rabaty!",
     },
     price: "%%%",
+  },
+];
+
+export const sections = [
+  {
+    name: "Home",
+    title: "Home",
+    description: "This is section 1.",
+  },
+  {
+    name: "Zajęcia",
+    title: "Zajęcia",
+    component: <Offer items={offerItems} />,
+  },
+  {
+    name: "Grafik",
+    title: "Grafik",
+    component: <Schedule items={schedulePlan} />,
+  },
+  {
+    name: "Trenerki",
+    title: "Trenerki",
+    component: <Team items={teamItems} />,
+  },
+  {
+    name: "Cennik",
+    title: "Cennik",
+    component: <Prices />,
+  },
+  {
+    name: "Kontakt",
+    title: "Kontakt",
+    component: <Contact />,
   },
 ];

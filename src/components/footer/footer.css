@@ -9,7 +9,7 @@
 }
 
 .footer-left,
-.footer-center,
+.adress-contact,
 .footer-right {
   margin: 10px;
 }
@@ -29,15 +29,16 @@
   color: white;
 }
 
-.footer-center {
+.adress-contact {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
   gap: 10px;
   margin: 25px 0;
 }
 
-.footer-contact {
+.footer-adress {
   display: flex;
   align-items: center;
 }
@@ -55,7 +56,8 @@
   gap: 10px;
 }
 
-.footer-right p {
+.footer-right p,
+.adress p {
   margin: 0;
 }
 
@@ -71,7 +73,7 @@
   }
 
   .footer-left,
-  .footer-center {
+  .adress {
     text-align: center;
   }
 
@@ -85,7 +87,7 @@
     align-items: flex-end;
   }
 
-  .footer-contact {
+  .adress-contact {
     justify-content: center;
   }
 
