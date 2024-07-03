@@ -96,3 +96,9 @@
     width: calc(100% - 40px); /* Ensure the width is recalculated with margin */
   }
 }
+
+@media (min-width: 1500px) {
+  .prices-main-list {
+    width: 50%;
+  }
+}
