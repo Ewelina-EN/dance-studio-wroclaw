@@ -14,6 +14,7 @@ import RoomRental from "./components/rent";
 import video from "../src/assets/video/head-video.mp4";
 import logo from "./assets/main/logo3.jpeg";
 import MainHeader from "./components/header";
+import Footer from "./components/footer/footer";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -77,6 +78,7 @@ function App() {
         ))}
         <RoomRental />
       </div>
+      <Footer />
     </div>
   );
 }
