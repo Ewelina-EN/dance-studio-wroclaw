@@ -15,6 +15,7 @@ import video from "../src/assets/video/head-video.mp4";
 import logo from "./assets/main/logo3.jpeg";
 import MainHeader from "./components/header";
 import Footer from "./components/footer/footer";
+import ScrollToTop from "./components/scroll/scroll";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -79,6 +80,7 @@ function App() {
       </div>
       <RoomRental />
       <Footer />
+      <ScrollToTop />
     </div>
   );
 }
