@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dance-studio-wroclaw/static/css/main.ac5c1b94.css",
-    "main.js": "/dance-studio-wroclaw/static/js/main.479c7e99.js",
+    "main.css": "/dance-studio-wroclaw/static/css/main.9133f7d3.css",
+    "main.js": "/dance-studio-wroclaw/static/js/main.d49840be.js",
     "static/js/453.7b5d330d.chunk.js": "/dance-studio-wroclaw/static/js/453.7b5d330d.chunk.js",
     "static/media/head-video.mp4": "/dance-studio-wroclaw/static/media/head-video.cb4aad92bd1402324906.mp4",
     "static/media/yuliia.png": "/dance-studio-wroclaw/static/media/yuliia.45180d152c2f90b1cbea.png",
@@ -17,12 +17,12 @@
     "static/media/pola.jpg": "/dance-studio-wroclaw/static/media/pola.cecfd8a526e72312015e.jpg",
     "static/media/anzhelika.jpg": "/dance-studio-wroclaw/static/media/anzhelika.c7d0403e70eb8e09e280.jpg",
     "index.html": "/dance-studio-wroclaw/index.html",
-    "main.ac5c1b94.css.map": "/dance-studio-wroclaw/static/css/main.ac5c1b94.css.map",
-    "main.479c7e99.js.map": "/dance-studio-wroclaw/static/js/main.479c7e99.js.map",
+    "main.9133f7d3.css.map": "/dance-studio-wroclaw/static/css/main.9133f7d3.css.map",
+    "main.d49840be.js.map": "/dance-studio-wroclaw/static/js/main.d49840be.js.map",
     "453.7b5d330d.chunk.js.map": "/dance-studio-wroclaw/static/js/453.7b5d330d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac5c1b94.css",
-    "static/js/main.479c7e99.js"
+    "static/css/main.9133f7d3.css",
+    "static/js/main.d49840be.js"
   ]
 }
