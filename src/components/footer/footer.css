@@ -35,7 +35,7 @@
   align-items: center;
   justify-content: flex-start;
   gap: 10px;
-  margin: 25px 0;
+  margin: 10px 0;
 }
 
 .footer-adress {
@@ -56,9 +56,16 @@
   gap: 10px;
 }
 
+.adress {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .footer-right p,
 .adress p {
   margin: 0;
+  font-size: 16px;
 }
 
 .footer-social {
@@ -72,9 +79,12 @@
     justify-content: space-around;
   }
 
-  .footer-left,
-  .adress {
+  .footer-left {
     text-align: center;
+  }
+
+  .adress {
+    align-items: flex-start;
   }
 
   .footer-left {

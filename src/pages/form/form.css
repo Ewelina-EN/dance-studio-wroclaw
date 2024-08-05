@@ -15,8 +15,9 @@
   background-color: #4b4e50;
   border: none;
   padding: 10px;
-  font-size: 16px;
+  font-size: 20px;
   color: white;
+  font-family: "Noto Sans", sans-serif;
 }
 
 .contact-form input::placeholder,
@@ -93,7 +94,7 @@
   .contact-form {
     max-width: 700px;
     padding: 40px;
-    margin: 100px auto;
+    margin: 50px auto;
   }
 
   .contact-form input,
